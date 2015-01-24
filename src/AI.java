@@ -18,7 +18,7 @@ public class AI {
 	public static void main(String[] args) throws Exception {
 		// Log
 		if (debug) {
-			File logFile = new File("/home/kojiro/java-log.txt");
+			File logFile = new File("/xxx/log.txt");
 			logger = new Logger(logFile);
 			logger.println("Log Start");
 			logger.flush();
